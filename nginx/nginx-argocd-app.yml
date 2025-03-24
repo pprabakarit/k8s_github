@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/pprabakarit/k8s_github.git
-    path: nginx-app  # Correct path to your manifests
+    path: nginx  # Correct path to your manifests
     targetRevision: master
   destination:
     server: https://kubernetes.default.svc
